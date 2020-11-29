@@ -1,0 +1,14 @@
+When we are creating an object using new (e.g. SampleClass sampleClass = new SampleClass(1, 2);),
+following steps happen step by step consecutively:
+<b>* so pay attention that constructor is not the first thing that would get called after using  new  keyword,
+actually it is the last step.</b>
+
+1) Static inline initialization
+2) Static variables (sets them with default value)
+3) static blocks
+
+4) Inline initialization
+5) variables initialization (non-static variables) (sets them with default value)
+6) Non-static blocks
+
+7) Final initialization (constructor)
