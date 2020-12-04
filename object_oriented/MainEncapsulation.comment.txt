@@ -1,0 +1,2 @@
+Encapsulation means limiting access to properties using access modifiers (like private) and grant access to those modifiers using methods (getters and setters) so we (as class designer) can hide (and force) some functionalities in these methods. (e.g. input validation)
+
