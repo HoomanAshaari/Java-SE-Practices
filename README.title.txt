@@ -1,1 +1,1 @@
-Java SE Practices
+Java SE
